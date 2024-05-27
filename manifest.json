@@ -1,9 +1,9 @@
 {
-    "name": "",
-    "short_name": "",
-    "description": "",
+    "name": "Lab8-Starter",
+    "short_name": "Pedro Serdio",
+    "description": "repo description here...",
     "start_url": "",
-    "display": "",
+    "display": "minimal_ui",
     "background_color": "",
     "theme_color": "",
     "icons": [
