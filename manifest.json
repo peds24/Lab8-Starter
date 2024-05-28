@@ -4,8 +4,8 @@
     "description": "repo description here...",
     "start_url": "./",
     "display": "minimal_ui",
-    "background_color": "",
-    "theme_color": "",
+    "background_color": "#808080",
+    "theme_color": "#ffffff",
     "icons": [
       {
         "src": "/assets/images/icons/icon-192x192.png",
