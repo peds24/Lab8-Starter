@@ -47,12 +47,15 @@ function initializeServiceWorker() {
   // B1. TODO - Check if 'serviceWorker' is supported in the current browser
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", async (event) => {
-      const registration = await navigator.serviceWorker.register("/sw.js");
-
-      console.log("Service worker registered succesfully");
+      try {
+        const registration = await navigator.serviceWorker.register("/cse110/Lab8-Starter/sw.js");
+        console.log("Service worker registered successfully");
+      } catch (error) {
+        console.error("Service worker registration failed:", error);
+      }
     });
-  } else{
-    console.log("Service worker registration failed");
+  } else {
+    console.log("Service worker is not supported in the current browser");
   }
   // B2. TODO - Listen for the 'load' event on the window object.
   // Steps B3-B6 will be *inside* the event listener's function created in B2
