@@ -3,7 +3,7 @@
     "short_name": "Pedro Serdio",
     "description": "repo description here...",
     "start_url": "./",
-    "display": "minimal_ui",
+    "display": "minimal-ui",
     "background_color": "#808080",
     "theme_color": "#ffffff",
     "icons": [
